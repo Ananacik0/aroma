@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="shortcut icon" href="./images/favicon.svg" type="image/svg">
+    <link rel="stylesheet" href="./style.css">
+    <title>AROMA | time for coffee</title>
+</head>
+<body>
+    <header class="header">
+        <a href="" class="logo">
+            <img src="./images/logo.svg" alt="" class="logo__image">
+        </a>
+        <nav class="navigation">
+            <li class="navigation__item"><a href="#menu" class="navigation__link">Меню</a></li>
+            <li class="navigation__item"><a href="#sale" class="navigation__link">Акции</a></li>
+            <li class="navigation__item"><a href="#lacation" class="navigation__link">Локации</a></li>
+            <li class="navigation__item"><a href="#about" class="navigation__link">О нас</a></li>
+            <li class="navigation__item"><a href="#order" class="navigation__link">Заказать</a></li>
+        </nav>
+        <a href="" class="city">
+            <img src="./images/map__icon.svg" alt="" class="city__icon">
+            Ростов-на-Дону
+        </a>
+    </header>
+    <main class="main">
+        <section class="cover" id="cover">
+            <div class="container">
+                <img src="./images/logo__cover.svg" alt="" class="cover__logo">
+                <p>Для тех, кто ценит время и качество</p>
+            </div>
+        </section>
+        <section class="contacts">
+            <div class="container">
+                <ul class="contacts__list">
+                    <li class="contacts__item">
+                        <p class="contacts__title">Адрес</p>
+                        <a href="" class="contacts__link">г. Ростов-на-Дону, пр. Буденновский, д.78</a>
+                    </li>
+                    <li class="contacts__item">
+                        <p class="contacts__title">Время работы</p>
+                        <a href="" class="contacts__link">ПН-ВС: 8.00 - 22.00</a>
+                    </li>
+                    <li class="contacts__item">
+                        <p class="contacts__title">Контакты</p>
+                        <a href="" class="contacts__link">Тел: +7 (909) 417-26-00</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="menu" id="menu">
+            <h1 class="menu__title">Меню</h1>
+            <img src="./images/logo__cover.svg" alt="" class="menu__logo">
+            <div class="buttons">
+            <button onclick="slide(0,'places')">Классика</button>
+            <button onclick="slide(1,'places')">Авторское</button>
+            <button onclick="slide(2,'places')">Чай</button>
+        </div>
+        <div class="slider" id="places">
+            <div class="track">
+                <div class="slide">
+                    <div class="cards">
+                        <div class="card">
+                           <h2 class="card__title">Классика</h2>
+                           <ul class="card__list">
+                            <li class="card__item">
+                                <p class="card__position">эспрессо</p>
+                                <span class="card__ml">20 ml | 40 ml</span>
+                                <p class="card__price">75 100</p>
+                            </li>
+                            <li class="card__item">
+                                <p class="card__position">эспрессо конпана</p>
+                                <span class="card__ml">40 ml | 80 ml</span>
+                                <p class="card__price">80 110</p>
+                            </li>
+                            <li class="card__item">
+                                <p class="card__position">эспрессо макиато</p>
+                                <span class="card__ml">40 ml | 80ml</span>
+                                <p class="card__price">80 110</p>
+                            </li>
+                            <li class="card__item">
+                                <p class="card__position">американо</p>
+                                <span class="card__ml">250 ml | 350ml | 600ml</span>
+                                <p class="card__price">100 145 195</p>
+                            </li>
+                            <li class="card__item">
+                                <p class="card__position">капучино</p>
+                                <span class="card__ml">200 ml | 400 ml | 600 ml</span>
+                                <p class="card__price">120 165 225</p>
+                            </li>
+                            <li class="card__item">
+                                <p class="card__position">латте</p>
+                                <span class="card__ml">280 ml | 400 ml | 600 ml</span>
+                                <p class="card__price">130 180 230</p>
+                            </li>
+                            <li class="card__item">
+                                <p class="card__position">мокачино</p>
+                                <span class="card__ml">280 ml | 400 ml | 600 ml</span>
+                                <p class="card__price">150 190 250</p>
+                            </li>
+                            <li class="card__item">
+                                <p class="card__position">гляссе</p>
+                                <span class="card__ml">250 ml | 350 ml</span>
+                                <p class="card__price">155 195</p>
+                            </li>
+                            <li class="card__item">
+                                <p class="card__position">флет уайт</p>
+                                <span class="card__ml">200 ml | 300 ml</span>
+                                <p class="card__price">160 190</p>
+                            </li>
+                           </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="cards">
+                        <div class="card">
+                            <img src="./images/places2.jfif">
+                            <div class="card-body">
+                                <h4>Urban Cafe</h4>
+                                <div class="rating">⭐⭐⭐⭐⭐</div>
+                                <p>Средний чек: 900₽</p>
+                                <p>Современное уютное кафе</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="./images/places6.jfif">
+                            <div class="card-body">
+                                <h4>Колючка</h4>
+                                <div class="rating">⭐⭐⭐⭐⭐</div>
+                                <p>Средний чек: 800₽</p>
+                                <p>Веганское меню и никакого мяса</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="cards">
+                        <div class="card">
+                            <img src="./images/places8.jfif">
+                            <div class="card-body">
+                                <h4>Ресторан Дон</h4>
+                                <div class="rating">⭐⭐⭐⭐⭐</div>
+                                <p>Средний чек: 2000₽</p>
+                                <p>Премиум кухня и сервис</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="./images/places1.jfif">
+                            <div class="card-body">
+                                <h4>Magadan</h4>
+                                <div class="rating">⭐⭐⭐⭐⭐</div>
+                                <p>Средний чек: 2240₽</p>
+                                <p>Персонал высшего уровня и еда из заграничных продуктов</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            </div>
+        </section>
+        <section class="sale" id="sale">
+            <div class="container"></div>
+        </section>
+        <section class="location" id="location">
+            <div class="container"></div>
+        </section>
+        <section class="about" id="about">
+            <div class="container"></div>
+        </section>
+        <section class="order" id="order">
+            <div class="container"></div>
+        </section>
+    </main>
+    <footer class="footer">
+        <a href="" class="logo">
+            <img src="" alt="" class="footer__logo">
+        </a>
+        <div class="info">
+            <p></p>
+            <span></span>
+        </div>
+        <a href="" class="number">
+            <img src="" alt="" class="number__icon">
+        </a>
+    </footer>
+    <script src="./app.js"></script>
+</body>
+</html>
