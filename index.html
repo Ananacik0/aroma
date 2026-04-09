@@ -17,7 +17,7 @@
         <nav class="navigation">
             <li class="navigation__item"><a href="#menu" class="navigation__link">Меню</a></li>
             <li class="navigation__item"><a href="#sale" class="navigation__link">Акции</a></li>
-            <li class="navigation__item"><a href="#lacation" class="navigation__link">Локации</a></li>
+            <li class="navigation__item"><a href="#location" class="navigation__link">Локации</a></li>
             <li class="navigation__item"><a href="#about" class="navigation__link">О нас</a></li>
             <li class="navigation__item"><a href="#order" class="navigation__link">Заказать</a></li>
         </nav>
@@ -56,7 +56,7 @@
             <img src="./images/logo__cover.svg" alt="" class="menu__logo">
             <div class="buttons">
             <button onclick="slide(0,'places')">Классика</button>
-            <button onclick="slide(1,'places')">Авторское</button>
+            <button onclick="slide(1,'places')">Авторский</button>
             <button onclick="slide(2,'places')">Чай</button>
         </div>
         <div class="slider" id="places">
@@ -118,44 +118,108 @@
                 <div class="slide">
                     <div class="cards">
                         <div class="card">
-                            <img src="./images/places2.jfif">
-                            <div class="card-body">
-                                <h4>Urban Cafe</h4>
-                                <div class="rating">⭐⭐⭐⭐⭐</div>
-                                <p>Средний чек: 900₽</p>
-                                <p>Современное уютное кафе</p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img src="./images/places6.jfif">
-                            <div class="card-body">
-                                <h4>Колючка</h4>
-                                <div class="rating">⭐⭐⭐⭐⭐</div>
-                                <p>Средний чек: 800₽</p>
-                                <p>Веганское меню и никакого мяса</p>
-                            </div>
+                           <h2 class="card__title">Авторский</h2>
+                           <ul class="card__list">
+                            <li class="card__item">
+                                <p class="card__position">эспрессо</p>
+                                <span class="card__ml">20 ml | 40 ml</span>
+                                <p class="card__price">75 100</p>
+                            </li>
+                            <li class="card__item">
+                                <p class="card__position">эспрессо конпана</p>
+                                <span class="card__ml">40 ml | 80 ml</span>
+                                <p class="card__price">80 110</p>
+                            </li>
+                            <li class="card__item">
+                                <p class="card__position">эспрессо макиато</p>
+                                <span class="card__ml">40 ml | 80ml</span>
+                                <p class="card__price">80 110</p>
+                            </li>
+                            <li class="card__item">
+                                <p class="card__position">американо</p>
+                                <span class="card__ml">250 ml | 350ml | 600ml</span>
+                                <p class="card__price">100 145 195</p>
+                            </li>
+                            <li class="card__item">
+                                <p class="card__position">капучино</p>
+                                <span class="card__ml">200 ml | 400 ml | 600 ml</span>
+                                <p class="card__price">120 165 225</p>
+                            </li>
+                            <li class="card__item">
+                                <p class="card__position">латте</p>
+                                <span class="card__ml">280 ml | 400 ml | 600 ml</span>
+                                <p class="card__price">130 180 230</p>
+                            </li>
+                            <li class="card__item">
+                                <p class="card__position">мокачино</p>
+                                <span class="card__ml">280 ml | 400 ml | 600 ml</span>
+                                <p class="card__price">150 190 250</p>
+                            </li>
+                            <li class="card__item">
+                                <p class="card__position">гляссе</p>
+                                <span class="card__ml">250 ml | 350 ml</span>
+                                <p class="card__price">155 195</p>
+                            </li>
+                            <li class="card__item">
+                                <p class="card__position">флет уайт</p>
+                                <span class="card__ml">200 ml | 300 ml</span>
+                                <p class="card__price">160 190</p>
+                            </li>
+                           </ul>
                         </div>
                     </div>
                 </div>
                 <div class="slide">
                     <div class="cards">
                         <div class="card">
-                            <img src="./images/places8.jfif">
-                            <div class="card-body">
-                                <h4>Ресторан Дон</h4>
-                                <div class="rating">⭐⭐⭐⭐⭐</div>
-                                <p>Средний чек: 2000₽</p>
-                                <p>Премиум кухня и сервис</p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img src="./images/places1.jfif">
-                            <div class="card-body">
-                                <h4>Magadan</h4>
-                                <div class="rating">⭐⭐⭐⭐⭐</div>
-                                <p>Средний чек: 2240₽</p>
-                                <p>Персонал высшего уровня и еда из заграничных продуктов</p>
-                            </div>
+                           <h2 class="card__title">Чай</h2>
+                           <ul class="card__list">
+                            <li class="card__item">
+                                <p class="card__position">эспрессо</p>
+                                <span class="card__ml">20 ml | 40 ml</span>
+                                <p class="card__price">75 100</p>
+                            </li>
+                            <li class="card__item">
+                                <p class="card__position">эспрессо конпана</p>
+                                <span class="card__ml">40 ml | 80 ml</span>
+                                <p class="card__price">80 110</p>
+                            </li>
+                            <li class="card__item">
+                                <p class="card__position">эспрессо макиато</p>
+                                <span class="card__ml">40 ml | 80ml</span>
+                                <p class="card__price">80 110</p>
+                            </li>
+                            <li class="card__item">
+                                <p class="card__position">американо</p>
+                                <span class="card__ml">250 ml | 350ml | 600ml</span>
+                                <p class="card__price">100 145 195</p>
+                            </li>
+                            <li class="card__item">
+                                <p class="card__position">капучино</p>
+                                <span class="card__ml">200 ml | 400 ml | 600 ml</span>
+                                <p class="card__price">120 165 225</p>
+                            </li>
+                            <li class="card__item">
+                                <p class="card__position">латте</p>
+                                <span class="card__ml">280 ml | 400 ml | 600 ml</span>
+                                <p class="card__price">130 180 230</p>
+                            </li>
+                            <li class="card__item">
+                                <p class="card__position">мокачино</p>
+                                <span class="card__ml">280 ml | 400 ml | 600 ml</span>
+                                <p class="card__price">150 190 250</p>
+                            </li>
+                            <li class="card__item">
+                                <p class="card__position">гляссе</p>
+                                <span class="card__ml">250 ml | 350 ml</span>
+                                <p class="card__price">155 195</p>
+                            </li>
+                            <li class="card__item">
+                                <p class="card__position">флет уайт</p>
+                                <span class="card__ml">200 ml | 300 ml</span>
+                                <p class="card__price">160 190</p>
+                            </li>
+                           </ul>
                         </div>
                     </div>
                 </div>
@@ -164,28 +228,113 @@
             </div>
         </section>
         <section class="sale" id="sale">
-            <div class="container"></div>
+            <h1 class="sale__title">акции</h1>
+            <div class="container">
+                <h2 class="sale__second">согревающий кофе <br>дня</h2>
+                <p class="sale__ml">400ml / 185₽</p>
+                <ul class="sale__list">
+                    <li class="sale__item">
+                        <span class="sale__week">пн</span>
+                        <p class="sale__name">латте гуава</p>
+                    </li>
+                    <li class="sale__item">
+                        <span class="sale__week">вт</span>
+                        <p class="sale__name">огуречный раф</p>
+                    </li>
+                    <li class="sale__item">
+                        <span class="sale__week">ср</span>
+                        <p class="sale__name">ирландский капучино</p>
+                    </li>
+                    <li class="sale__item">
+                        <span class="sale__week">чт</span>
+                        <p class="sale__name">раф кофе классический</p>
+                    </li>
+                    <li class="sale__item">
+                        <span class="sale__week">пт</span>
+                        <p class="sale__name">флет уайт карибский</p>
+                        <span class="sale__ml--red">300ml</span>
+                    </li>
+                    <li class="sale__item">
+                        <span class="sale__week">сб</span>
+                        <p class="sale__name">карамельно-банановый капучино</p>
+                    </li>
+                    <li class="sale__item">
+                        <span class="sale__week">вс</span>
+                        <p class="sale__name">латте пряная тыква</p>
+                    </li>
+                </ul>
+            </div>
         </section>
         <section class="location" id="location">
-            <div class="container"></div>
+            <h1 class="location__title">
+                Локации
+            </h1>
+            <div class="container">
+                <ul class="location__list">
+                    <li class="location__item">
+                        <p>- ул. Профессора Попова, д. 29<br>🕑 8:00-22:00</p>
+                    </li>
+                    <li class="location__item">
+                        <p>- ул. Воскова, д. 7/18<br>🕑 08:00-21:00</p>
+                    </li>
+                    <li class="location__item">
+                        <p>- ул. Ломоносова, д. 20 (2 окошка)<br>🕑 8:00-22:00</p>
+                    </li>
+                    <li class="location__item">
+                        <p>- 16 лин. В.О., д. 53<br>🕑 8:00-20:00 </p>
+                    </li>
+                    <li class="location__item">
+                        <p>- ул. Большая Пушкарская, д. 30<br>🕑 8:00-20:00</p>
+                    </li>
+                </ul>
+            </div>
         </section>
         <section class="about" id="about">
-            <div class="container"></div>
+            <h1 class="about__title">
+                О нас
+            </h1>
+            <div class="container">
+                <img src="./images/about__inage.png" alt="" class="about__image">
+                <p class="about__text">
+                    Мы предприятие общественного питания, специализирующееся на изготовлении и реализации с потреблением на месте широкого ассортимента напитков из кофе, какао и чая, мучных и кондитерских изделий, а также алкогольных напитков и покупных товаров
+                </p>
+            </div>
         </section>
         <section class="order" id="order">
-            <div class="container"></div>
+            <h1 class="order__title">Заказ</h1>
+            <div class="container">
+                <form name="" for="order" action="https://api.web3forms.com/submit" class="order__form" data-target="" method="POST">
+
+            <input type="hidden" name="access_key" value="c7d4936d-9f30-47e5-af12-fcbf75e64cc6">
+
+            <input type="text" id="user__name" class="order__name" placeholder="Введите имя" required>
+            <label for="user__name" class="order__name--label">Введите имя</label>
+
+            <input type="text" class="order__number" name="order" id="phone" placeholder="+7(000)000-00-00" required>
+            <label for="phone" class="order__number--label">Телефон</label>
+            
+            <input type="date" id="user__date" class="order__date" required>
+            <label for="user__date" class="order__date--label">Выберите дату</label>
+
+            <textarea type="text" id="user__comment" class="order__comment" placeholder="Добавьте комментарий"  required></textarea>
+            <label for="user__comment" class="order__comment--label">Добавьте комментарий</label>
+            
+            <button class="order__push">Заказать</button>
+          </form>
+            </div>
         </section>
     </main>
     <footer class="footer">
         <a href="" class="logo">
-            <img src="" alt="" class="footer__logo">
+            <img src="./images/logo.svg" alt="" class="footer__logo">
         </a>
         <div class="info">
-            <p></p>
-            <span></span>
+            <p>ИП Тарабановский Филипп Борисович</p>
+            <span>Профессора Попова 29, Санкт-Петербург</span>
         </div>
         <a href="" class="number">
-            <img src="" alt="" class="number__icon">
+            <img src="./images/map__icon.svg" alt="" class="number__icon">
+            +7 (906) 229-88-50
         </a>
     </footer>
     <script src="./app.js"></script>
